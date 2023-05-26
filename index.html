@@ -472,24 +472,26 @@
             </li>
           </ul>
         </div>
+        <p class="footer-subscribe-title">Subscribe</p>
         <div class="subscribe-main">
-          <p class="footer-subscribe-title">Subscribe</p>
-          <div class="footer-subscribe-list">
+          <form class="footer-subscribe-list">
             <label class="footer-mail">
               <input
                 placeholder="E-mail"
-                type="text"
+                type="email"
                 class="footer-subscribe-mail"
                 name="user_mail"
                 required
                 pattern="[A-Z,a-z][@][.com]"
               />
+            </label>
+            <button type="submit" class="footer-subscribe-btn">
+              Subscribe
               <svg class="footer-subscribe-send" width="24" height="20">
                 <use class="footer-subscribe-icon" href="./images/icons.svg#icon-icon-send"></use>
               </svg>
-            </label>
-            <button type="submit" class="footer-subscribe-btn">Subscribe</button>
-          </div>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -539,7 +541,7 @@
               <span class="contact-form-field-descr">Email</span>
               <input
                 class="form-contact-input"
-                type="text"
+                type="email"
                 name="user_mail"
                 required
                 pattern="[A-Z,a-z][@][.com]"

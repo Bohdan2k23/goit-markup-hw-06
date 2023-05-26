@@ -463,9 +463,10 @@ img {
   margin-left: 80px;
 }
 .footer-subscribe-list {
-  position: relative;
   display: flex;
-  gap: 24px;
+}
+.footer-mail {
+  margin-right: 24px;
 }
 .footer-subscribe-title {
   font-family: 'Roboto', sans-serif;
@@ -488,6 +489,7 @@ img {
   color: #ffffff;
 }
 .footer-subscribe-btn {
+  display: flex;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
