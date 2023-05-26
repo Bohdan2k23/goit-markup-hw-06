@@ -475,18 +475,20 @@
         <div class="subscribe-main">
           <p class="footer-subscribe-title">Subscribe</p>
           <div class="footer-subscribe-list">
-            <input
-              placeholder="E-mail"
-              type="text"
-              class="footer-subscribe-mail"
-              name="user_mail"
-              required
-              pattern="[A-Z,a-z][@][.com]"
-            />
+            <label class="footer-mail">
+              <input
+                placeholder="E-mail"
+                type="text"
+                class="footer-subscribe-mail"
+                name="user_mail"
+                required
+                pattern="[A-Z,a-z][@][.com]"
+              />
+              <svg class="footer-subscribe-send" width="24" height="20">
+                <use class="footer-subscribe-icon" href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </label>
             <button type="submit" class="footer-subscribe-btn">Subscribe</button>
-            <svg class="footer-subscribe-send" width="24" height="20">
-              <use class="footer-subscribe-icon" href="./images/icons.svg#icon-icon-send"></use>
-            </svg>
           </div>
         </div>
       </div>
