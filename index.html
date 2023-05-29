@@ -507,10 +507,11 @@
 
         <form class="contact-form">
           <div class="contact-form-wrapper">
-            <label class="contact-form-field-wrapper">
+            <label for="user-name" class="contact-form-field-wrapper">
               <span class="contact-form-input-wrapper">
                 <span class="contact-form-field-descr">Name</span>
                 <input
+                  id="user-name"
                   class="form-contact-input"
                   type="text"
                   name="user_first_name"
@@ -522,6 +523,8 @@
                 </svg>
               </span>
             </label>
+          </div>
+          <div class="contact-form-wrapper">
             <label class="contact-form-field-wrapper">
               <span class="contact-form-input-wrapper">
                 <span class="contact-form-field-descr">Phone</span>
@@ -538,6 +541,9 @@
                 </svg>
               </span>
             </label>
+          </div>
+
+          <div class="contact-form-wrapper">
             <label class="contact-form-field-wrapper">
               <span class="contact-form-input-wrapper">
                 <span class="contact-form-field-descr">Email</span>
@@ -553,6 +559,9 @@
                 </svg>
               </span>
             </label>
+          </div>
+
+          <div class="contact-form-wrapper">
             <label class="contact-form-field-wrapper">
               <span class="contact-form-field-descr">Comment</span>
               <textarea
@@ -561,16 +570,26 @@
                 placeholder="Type input"
               ></textarea>
             </label>
-            <label class="contact-form-checkbox-wrapper">
-              <input class="contact-form-checkbox" type="checkbox" name="user_policy" required />
+          </div>
+
+          <div class="contact-form-wrapper">
+            <label for="user-privacy" class="contact-form-checkbox-wrapper">
+              <input
+                class="contact-form-checkbox"
+                type="checkbox"
+                name="user_policy"
+                id="user-privacy"
+                required
+              />
               <svg class="contact-form-own-checkbox" width="16" height="16">
                 <use class="contact-form-checkmark-icon" href="./images/icons.svg#icon-tick"></use>
               </svg>
               I accept the terms and conditions of the
               <a class="form-pivacy" href="">Privacy Policy</a>
             </label>
-            <button type="submit" class="contact-form-submit">Send</button>
           </div>
+
+          <button type="submit" class="contact-form-submit">Send</button>
         </form>
       </div>
     </div>
