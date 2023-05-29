@@ -742,10 +742,6 @@ img {
   margin-bottom: 4px;
   display: block;
 }
-.contact-form-input-wrapper {
-  position: relative;
-  display: block;
-}
 .contact-form-input-icon {
   position: absolute;
   top: 50%;
