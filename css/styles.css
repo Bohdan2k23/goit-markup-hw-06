@@ -480,12 +480,17 @@ img {
 .footer-subscribe-mail {
   width: 264px;
   height: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
   background-color: transparent;
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
-.footer-subscribe-mail:focus {
+.footer-subscribe-mail::placeholder {
   color: #ffffff;
 }
 .footer-subscribe-btn {
@@ -497,11 +502,14 @@ img {
   color: #ffffff;
   background: #4d5ae5;
   letter-spacing: 0.04em;
-  width: 164px;
+  min-width: 165px;
   height: 40px;
   padding-right: 64px;
   padding-left: 24px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-shadow: rgba(46, 47, 66, 0.7);
   border: none;
   border-radius: 4px;
@@ -515,6 +523,7 @@ img {
   position: absolute;
   right: 24px;
   top: 10px;
+  margin-left: 16px;
 }
 .footer-subscribe-icon {
   fill: #ffffff;
