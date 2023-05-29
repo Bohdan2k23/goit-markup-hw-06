@@ -700,12 +700,19 @@ img {
 .contact-form-wrapper {
   margin-bottom: 8px;
 }
+.contact-form-content {
+  position: relative;
+}
 .contact-form-field-wrapper,
 .contact-form-checkbox-wrapper {
   display: block;
 }
 .contact-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 .contact-form-checkbox-wrapper {
   margin-bottom: 24px;
@@ -741,7 +748,7 @@ img {
 }
 .contact-form-input-icon {
   position: absolute;
-  top: 65%;
+  top: 50%;
   left: 19px;
   display: block;
   transform: translateY(-50%);
