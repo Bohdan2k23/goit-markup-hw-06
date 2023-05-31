@@ -464,6 +464,7 @@ img {
 }
 .footer-subscribe-list {
   display: flex;
+  gap: 24px;
 }
 .footer-mail {
   margin-right: 24px;
@@ -696,9 +697,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
-}
-.contact-form {
-  gap: 24px;
 }
 .contact-form-wrapper {
   margin-bottom: 8px;
