@@ -466,9 +466,6 @@ img {
   display: flex;
   gap: 24px;
 }
-.footer-mail {
-  margin-right: 24px;
-}
 .footer-subscribe-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -505,13 +502,10 @@ img {
   letter-spacing: 0.04em;
   min-width: 165px;
   height: 40px;
-  padding-right: 64px;
-  padding-left: 24px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: rgba(46, 47, 66, 0.7);
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -521,9 +515,6 @@ img {
   background-color: #404bbf;
 }
 .footer-subscribe-send {
-  position: absolute;
-  right: 24px;
-  top: 10px;
   margin-left: 16px;
 }
 .footer-subscribe-icon {
